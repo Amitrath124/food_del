@@ -4,11 +4,11 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='header'>
-        <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>Ambrosia is the food of the gods, and epicurean delight, food fit for a king, delicacy, heavenly spread, gastronomical delight, some apply this term to the pièce de résistance in a meal.</p>
-            <button>View Menu</button>
-        </div>
+      <div className="header-contents">
+        <h2>Order your favourite food here</h2>
+        <p>Ambrosia is the food of the gods, and epicurean delight, food fit for a king, delicacy, heavenly spread, gastronomical delight, some apply this term to the pièce de résistance in a meal.</p>
+        <button>View Menu</button>
+      </div>
 
     </div>
   )
