@@ -81,3 +81,29 @@
     color: white;
     border-radius: 4px;
 }
+@media (max-width: 768px) {
+    .cart-items-title{
+        display: none;
+    }
+    .cart-items-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 0.5fr;
+        align-items: center;
+        gap: 10px;
+    }
+    .cart-items-item .price, .cart-items-item .quantity{
+        display: none;
+    }
+    .cart-bottom{
+        flex-direction: column;
+    }
+    .cart-total, .cart-promocode{
+        width: 100%;
+    }
+    .cart-total button{
+        width: 100%;
+    }
+    .cart-promocode-input button{
+        width: 100%;
+    }
+}
