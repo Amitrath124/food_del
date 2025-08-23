@@ -1,0 +1,86 @@
+/* Overall Layout for the PlaceOrder component */
+.place-order {
+    display: flex;
+    align-items: flex-start; /* Changed to flex-start for better alignment */
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+/* Styling for the left side (Delivery Information) */
+.place-order-left {
+    width: 100%; /* Set to 100% to fill the available space */
+    max-width: max(30%, 500px); /* This will constrain the width on larger screens */
+}
+
+/* Title for the Delivery Information section */
+.place-order-left .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* Styling for input fields */
+.place-order-left input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+}
+
+/* Container for multiple input fields on the same line (e.g., First Name/Last Name) */
+.place-order-left .multi-fields {
+    display: flex;
+    gap: 10px;
+}
+
+/* Styling for the right side (Cart Totals) */
+.place-order-right {
+    width: 100%;
+    max-width: 400px; /* Example: You can set a max-width for the right section */
+}
+
+/* Styling for the cart total box */
+.cart-total {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for individual cart total details */
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for horizontal rule separator */
+.cart-total hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+/* Styling for the 'PROCEED TO PAYMENT' button */
+.cart-total button {
+    width: 100%;
+    padding: 12px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.place-order-right {
+    width: 100%;
+    max-width: max(40%, 500px); /* Example: You can set a max-width for the right section */
+}
+.place-order .cart-total button{
+    margin-top: 30px;
+}
