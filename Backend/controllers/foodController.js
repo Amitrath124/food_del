@@ -17,7 +17,7 @@ const addFood = async (req, res) => {
 
     try {
         await food.save();
-        res.status(201).json({ success: true, message: "Food item added successfully"});
+        res.status(201).json({ success: true, message: "Food item added successfully" });
     } catch (error) {
         // Delete the uploaded file if there's an error saving to the database
         console.log(error);
