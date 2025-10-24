@@ -18,3 +18,9 @@ hr{
   height: 1px;
   background-color: #e0e0e0;
 }
+
+.app-container{
+  display: flex;
+  min-height: 100vh;
+
+}
