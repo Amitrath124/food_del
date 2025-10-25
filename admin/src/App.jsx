@@ -5,11 +5,13 @@ import Sidebar from './componets/Sidebar/Sidebar'
 import { Routes, Route} from 'react-router-dom'
 import Add from './pages/Add/Add'
 import List from './pages/List/List'
-import { Order } from './pages/Orders/Order'
+import Orders from './pages/Orders/Orders'
+
 
 const App = () => {
   return (
     <div>
+      
       <Navbar />
       <hr/>
       <div className="app-content">
@@ -17,9 +19,9 @@ const App = () => {
         <Routes>
           <Route path="/add" element={<Add />} />
           <Route path="/list" element={<List />} />
-          <Route path="/orders" element={<Order />} />
+          <Route path="/order" element={<Orders />} />
         </Routes>
-        
+
       </div>
 
     </div>
