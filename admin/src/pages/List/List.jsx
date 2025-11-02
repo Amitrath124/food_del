@@ -1,11 +1,8 @@
 import React from 'react'
 import './List.css'
-
 const List = () => {
   return (
-    <div>
-        list
-    </div>
+    <div>List</div>
   )
 }
 
